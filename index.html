@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<script>
+  var target = 'https://projet-vanlifemap.github.io/VanLifeMap/';
+  var search = window.location.search;
+  var hash = window.location.hash;
+  window.location.replace(target + (search ? search : '') + (hash ? hash : ''));
+</script>
+</html>
